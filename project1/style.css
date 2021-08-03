@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(37, 37, 163);
+    color: whitesmoke;
+    margin:3%;
+    padding-right: 2%;
+}
+h1{
+    left:25%;
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: rgba(95, 23, 23, 0.686);
+}
+table{
+    margin:0%;
+    border:5px  solid wheat;
+    margin-right: 1%;
+    border-right: 1%;
+}
+th{
+    padding: 3%;
+}
+.thead{
+    font-size: 25px;
+    color:rgb(250, 126, 209);
+    text-align: center;
+    padding-right: 10px;
+}
+.number{
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    border:3px double black;
+    padding: 5px;
+}
+img{
+    height: 40%;
+    width: 40%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
