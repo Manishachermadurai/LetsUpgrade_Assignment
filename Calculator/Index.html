@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <p>Find the solution..!</p>
+    <div class="container">
+        <form name="calculator">
+            <div class="resultscreen">
+                <div class="heading">
+                    Calculator
+                </div>
+               <input type="text" id="calc" class="calc" name="evalresult"/>
+            </div>
+            <div class="buttons">
+                <div class="line">
+                    <input class="btn number" type="button" name="btn1" value="1" onclick="display('1')" />
+                    <input class="btn number" type="button" name="btn2" value="2" onclick="display('2')" />
+                    <input class="btn number" type="button" name="btn3" value="3" onclick="display('3')" />
+                    <input class="btn" type="button" name="btn+" value="+" onclick="display('+')"/>
+                </div>
+                <div class="line">
+                    <input class="btn number" type="button" name="btn4" value="4"  onclick="display('4')" />
+                    <input class="btn number" type="button" name="btn5" value="5"  onclick="display('5')"/>
+                    <input class="btn number" type="button" name="btn6" value="6" onclick="display('6')"  />
+                    <input class="btn" type="button" name="btn-" value="-" onclick="display('-')" />
+                </div>
+                <div class="line">
+                    <input class="btn number" type="button" name="btn7" value="7" onclick="display('7')" />
+                    <input class="btn number" type="button" name="btn8" value="8" onclick="display('8')" />
+                    <input class="btn number" type="button" name="btn9" value="9" onclick="display('9')" />
+                    <input class="btn" type="button" name="btn*" value="*" onclick="display('*')" />
+                </div>
+                <div class="line">
+                    <input class="btn number" type="button" name="btn0" value="0"  onclick="display('0')"/>
+                    <input class="btn" type="button" name="btn.n" value="." onclick="display('.')"  />
+                    <input class="btn" type="button" name="btn/" value="/" onclick="display('/')" />
+                    <input class="btn" type="button" name="btn%" value="%" onclick="display('%')"/>
+                </div>
+                <div class="line">
+                    <input class="btn last-line" name="btn=" type="button" value="=" onclick="solve()" />
+                    <input class="btn last-line" name="btnce" type="button" value="CE" onclick="back()" />
+                    <input class="btn last-line" name="btnc" type="button" value="C" onclick="clean()"  />
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
