@@ -1,0 +1,31 @@
+1. What is the time complexity for the code?
+
+a=1
+b=1
+whlie(b<=n)
+{
+  a+=1
+  b+=1
+  cout<<"Hi";
+}
+
+Answer:
+
+Time Complexity:
+T(n)=O(n)
+
+2.Write the output for the following recursive code snippet for n=3:
+
+void fun(int n)
+{
+  if(n>0)
+  {
+     cout<<n;
+	 fun(n-1);
+	 cout<<n;
+  }
+}
+
+
+Answer:
+321123
